@@ -1,0 +1,31 @@
+.header, .section, .article, .aside, .footer {
+  border: 4px solid var(--border, red);
+  margin: 16px 0;     /* separación entre bloques */
+  padding: 12px; 
+}
+.header { 
+  background-color: #FFE7D6; 
+} 
+.section{
+  background-color: #FFF1DA; 
+} 
+.article{ 
+  background-color: #FFE9EF;
+ } 
+.aside   { 
+  background-color: #FFF6C9; 
+}
+.footer  { 
+  background-color: #FFE2D1; 
+}
+
+.identificador {
+  font-weight: bold;
+  color: red;
+}
+
+img{
+  width: 300px;
+  height: auto;
+}
+

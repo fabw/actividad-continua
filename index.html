@@ -4,46 +4,51 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lección 2 - Página Informativa</title>
-
   <!-- link: conecta el HTML con la hoja de estilos CSS -->
-  <link rel="stylesheet" href="ASSETS/CSS/styles.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
 
   <!-- header: encabezado principal -->
-  <header>
-    <!-- h1: título principal de la página -->
+  <header class="header">
+    <h2 class="identificador">&lt;header&gt;</h2>
     <h1>Fundamentos del Desarrollo Web</h1>
-
-    <!-- p: párrafo de texto informativo -->
     <p>En esta página se explica de forma simple cómo se estructura una web usando HTML, CSS y JavaScript.</p>
+    <h2 class="identificador">&lt;/header&gt;</h2>
   </header>
 
   <!-- section: agrupa contenido relacionado dentro de la página -->
-  <section>
+  <section class="section">
+    <h2 class="identificador">&lt;section&gt;</h2>
     <h2>¿Qué hace cada tecnología?</h2>
-
     <!-- article: contenido independiente  -->
-    <article>
+    <article class="article">
+      <h2 class="identificador">&lt;article&gt;</h2>
       <h3>HTML, CSS y JavaScript</h3>
       <p><strong>HTML</strong> organiza el contenido (títulos, textos, imágenes). <strong>CSS</strong> define el diseño (colores, tamaños, layout). <strong>JavaScript</strong> agrega interacción (botones, validaciones, efectos).</p>
 
       <!-- img: inserta una imagen usando ruta local -->
-      <img src="ASSETS/IMG/apoyo.jpg" alt="Imagen de apoyo relacionada con desarrollo web">
-      <p class="nota">Imagen cargada desde una ruta local: <em>ASSETS/IMG/apoyo.jpg</em></p>
+      <img src="assets/img/apoyo.jpg" alt="Imagen de apoyo relacionada con desarrollo web">
+      <p class="nota">Imagen cargada desde una ruta local: <em>assets/img/apoyo.jpg</em></p>
+      <h2 class="identificador">&lt;/article&gt;</h2>
     </article>
+    <h2 class="identificador">&lt;/section&gt;</h2>
   </section>
 
   <!-- aside: contenido complementario -->
-  <aside>
+  <aside class="aside">
+    <h2 class="identificador">&lt;aside&gt;</h2>
     <h2>Dato extra</h2>
     <p>Usar etiquetas semánticas ayuda a que el código sea más claro y mejora la accesibilidad.</p>
+    <h2 class="identificador">&lt;/aside&gt;</h2>
   </aside>
 
   <!-- footer: pie de página, información final o autoría -->
-  <footer>
+  <footer class="footer">
+    <h2 class="identificador">&lt;footer&gt;</h2>
     <p>Actividad Lección 2 — Nombre: Francisco Blazquez Weber</p>
+    <h2 class="identificador">&lt;/footer&gt;</h2>
   </footer>
 
 </body>
